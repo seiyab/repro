@@ -10,6 +10,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "mdast-util-from-markdown": "^2.0.0",
     "micromark": "^4.0.0"
   }
 }
