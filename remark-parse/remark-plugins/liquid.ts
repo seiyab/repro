@@ -1,4 +1,5 @@
 import { CompileContext, Token } from "mdast-util-from-markdown";
+import { markdownLineEnding } from "micromark-util-character";
 import { codes, types } from "micromark-util-symbol";
 import { Code, Effects, State } from "micromark-util-types";
 import { Processor } from "unified";
@@ -45,6 +46,12 @@ function syntax(): any {
 			}
 			if (code === codes.eof) {
 				return nok;
+			}
+			if (markdownLineEnding(code)) {
+				effects.enter(types.lineEnding);
+				effects.consume(code);
+				effects.exit(types.lineEnding);
+				return inside;
 			}
 			effects.consume(code);
 			return inside;

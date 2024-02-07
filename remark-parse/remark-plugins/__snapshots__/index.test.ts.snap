@@ -332,3 +332,80 @@ exports[`liquid {} 1`] = `
   "type": "root",
 }
 `;
+
+exports[`liquid a{
+    b
+    c
+  }d 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "position": {
+            "end": {
+              "column": 2,
+              "line": 1,
+              "offset": 1,
+            },
+            "start": {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "a",
+        },
+        {
+          "position": {
+            "end": {
+              "column": 4,
+              "line": 4,
+              "offset": 18,
+            },
+            "start": {
+              "column": 2,
+              "line": 1,
+              "offset": 1,
+            },
+          },
+          "type": "liquid",
+          "value": 
+"{
+    b
+    c
+  }d"
+,
+        },
+      ],
+      "position": {
+        "end": {
+          "column": 5,
+          "line": 4,
+          "offset": 19,
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": {
+    "end": {
+      "column": 5,
+      "line": 4,
+      "offset": 19,
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
