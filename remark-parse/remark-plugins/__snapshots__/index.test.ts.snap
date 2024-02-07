@@ -1,0 +1,334 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`liquid abc{def}geh 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "position": {
+            "end": {
+              "column": 4,
+              "line": 1,
+              "offset": 3,
+            },
+            "start": {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "abc",
+        },
+        {
+          "position": {
+            "end": {
+              "column": 9,
+              "line": 1,
+              "offset": 8,
+            },
+            "start": {
+              "column": 4,
+              "line": 1,
+              "offset": 3,
+            },
+          },
+          "type": "liquid",
+          "value": "{def}",
+        },
+        {
+          "position": {
+            "end": {
+              "column": 12,
+              "line": 1,
+              "offset": 11,
+            },
+            "start": {
+              "column": 9,
+              "line": 1,
+              "offset": 8,
+            },
+          },
+          "type": "text",
+          "value": "geh",
+        },
+      ],
+      "position": {
+        "end": {
+          "column": 12,
+          "line": 1,
+          "offset": 11,
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": {
+    "end": {
+      "column": 12,
+      "line": 1,
+      "offset": 11,
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`liquid aa{[link-like](example.com)}bb 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "position": {
+            "end": {
+              "column": 3,
+              "line": 1,
+              "offset": 2,
+            },
+            "start": {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "aa",
+        },
+        {
+          "position": {
+            "end": {
+              "column": 29,
+              "line": 1,
+              "offset": 28,
+            },
+            "start": {
+              "column": 3,
+              "line": 1,
+              "offset": 2,
+            },
+          },
+          "type": "liquid",
+          "value": "{[link-like](example.com)}",
+        },
+        {
+          "position": {
+            "end": {
+              "column": 31,
+              "line": 1,
+              "offset": 30,
+            },
+            "start": {
+              "column": 29,
+              "line": 1,
+              "offset": 28,
+            },
+          },
+          "type": "text",
+          "value": "bb",
+        },
+      ],
+      "position": {
+        "end": {
+          "column": 31,
+          "line": 1,
+          "offset": 30,
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": {
+    "end": {
+      "column": 31,
+      "line": 1,
+      "offset": 30,
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`liquid a
+b 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "position": {
+            "end": {
+              "column": 2,
+              "line": 2,
+              "offset": 3,
+            },
+            "start": {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": 
+"a
+b"
+,
+        },
+      ],
+      "position": {
+        "end": {
+          "column": 2,
+          "line": 2,
+          "offset": 3,
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": {
+    "end": {
+      "column": 2,
+      "line": 2,
+      "offset": 3,
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`liquid { 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "position": {
+            "end": {
+              "column": 2,
+              "line": 1,
+              "offset": 1,
+            },
+            "start": {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "{",
+        },
+      ],
+      "position": {
+        "end": {
+          "column": 2,
+          "line": 1,
+          "offset": 1,
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": {
+    "end": {
+      "column": 2,
+      "line": 1,
+      "offset": 1,
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`liquid {} 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "position": {
+            "end": {
+              "column": 3,
+              "line": 1,
+              "offset": 2,
+            },
+            "start": {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "type": "text",
+          "value": "{}",
+        },
+      ],
+      "position": {
+        "end": {
+          "column": 3,
+          "line": 1,
+          "offset": 2,
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": {
+    "end": {
+      "column": 3,
+      "line": 1,
+      "offset": 2,
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
